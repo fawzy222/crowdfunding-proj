@@ -1,0 +1,197 @@
+body{
+    margin: 0 auto;
+    background-color:whitesmoke;
+    font-family: 'Commissioner', sans-serif;
+    font-family: 'Roboto', sans-serif;  
+    font-family: 'Space Mono', monospace;   
+}
+header{
+   height: 300px;
+   background-image: url(/images/image-hero-desktop.jpg);
+   
+}
+.main-ctn{
+    margin: 0 auto;
+    width: 700px;
+}
+h2{
+    font-weight: 900;
+    
+}
+h6{
+    font-weight: 700;
+    font-size: 15px;
+    color: hsl(176, 50%, 47%);
+}
+p{
+    font-size: 15px;
+    color: hsl(0, 0%, 48%);
+}
+.header-ctn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    z-index: 1;
+    height: 250px;
+    margin-bottom:50px;
+    margin-top:-40px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.header-ctn #header-logo{
+    margin-top: -25px;
+    z-index: 1;
+}
+.header-btn{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: space-between;    
+}
+.header-btn button{
+    background-color: hsl(176, 50%, 47%);
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: 20px auto;
+    border: none;
+}
+.header-btn button img{
+    height: 30px;
+    width:30px;
+    position:absolute;
+    left: 830px;
+    top: 455px;
+}
+#bookmark-btn{
+    background-color: hsl(0, 0%, 48%);
+}
+.total-raised-ctn{
+    background-color: white;
+    border-radius: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: hsl(0, 0%, 48%);
+}
+#totals{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+#myProgress {
+    width: 550px;
+    background-color: grey;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+  }
+  
+  #myBar {
+    width: 89%;
+    height: 10px;
+    background-color: darkcyan;
+    border-radius: 20px;
+  }
+.total-raised-ctn strong{
+    font-size: 35px;
+    color: black;
+}
+.about-ctn{
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+}
+.product-ctn{
+    border: .5px solid grey;
+    border-radius: 15px;
+    margin:  30px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.product-ctn button{
+    background-color: hsl(176, 50%, 47%);
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin: 20px auto;
+    border: none;
+}
+.product-ctn #product-heading{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.inventory-ctn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.inventory{
+    margin-right: 275px;
+}
+.inventory span{
+    font-size: 28px;
+    font-weight: 900;
+}
+.back-this-prjct-ctn{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 625px;
+    padding: 40px;
+}
+.pledge-choice-ctn{
+    border: 0.5px solid grey;
+    border-radius: 15px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 600px;
+}
+.pledge-header{
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center;
+    height: 100px;
+    flex-wrap: wrap;
+    
+}
+.pledge-header .inventory{
+    width:50px !important;
+    margin: 0;
+    position: relative;
+}
+.pledge-header h2{
+    font-size: 20px;
+    font-weight:bolder;
+}
+.pledge-choice-ctn h5{
+    color:hsl(176, 72%, 28%) ;
+    font-weight: 700;
+}
